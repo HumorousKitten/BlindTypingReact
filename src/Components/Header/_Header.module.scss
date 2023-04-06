@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Header{
     width: 100vw;
     height: 70px;
@@ -42,6 +43,53 @@
         color: white;
         font-size: 0.91rem;
         width: 5.375rem;
+=======
+.header{
+    width: 100vw;
+    display: flex;
+    height: 70px;
+
+    .AvatarBlock{
+        width: 50vw;
+        display: flex;
+        justify-content: end;
+        padding-right: 5.625rem;
+        
+        div{
+            display: flex;
+            align-items: center;
+        }
+
+        img:nth-child(1){
+            height: 1.38rem;
+        }
+
+        img:nth-child(3){
+            height: 1.13rem;
+        }
+
+        span{
+            margin-left: 8px;
+            margin-right: 4px;
+            width: 5.38rem;
+        }
+    }
+
+    .TitleBlock{
+        width: 50vw;
+        display: flex;
+        padding-left: 5.625rem;
+        align-items: center;
+        img{
+            height: 1.13rem;
+            margin-right: 4px;
+        }
+    }
+    .span{
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.91rem;
+>>>>>>> 122d8edc733b352324a802db9463bb37c5cdfb6e
     }
 }
 

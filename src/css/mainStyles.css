@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+=======
+>>>>>>> 122d8edc733b352324a802db9463bb37c5cdfb6e
 * {
   margin: 0;
   padding: 0;
 }
 
+<<<<<<< HEAD
 body {
   font-family: "Inter", sans-serif;
 }
@@ -73,6 +77,48 @@ body {
   font-weight: 700;
   font-size: 1.25rem;
   width: 3.125rem;
+=======
+.header {
+  width: 100vw;
+  display: flex;
+  height: 70px;
+}
+.header .AvatarBlock {
+  width: 50vw;
+  display: flex;
+  justify-content: end;
+  padding-right: 5.625rem;
+}
+.header .AvatarBlock div {
+  display: flex;
+  align-items: center;
+}
+.header .AvatarBlock img:nth-child(1) {
+  height: 1.38rem;
+}
+.header .AvatarBlock img:nth-child(3) {
+  height: 1.13rem;
+}
+.header .AvatarBlock span {
+  margin-left: 8px;
+  margin-right: 4px;
+  width: 5.38rem;
+}
+.header .TitleBlock {
+  width: 50vw;
+  display: flex;
+  padding-left: 5.625rem;
+  align-items: center;
+}
+.header .TitleBlock img {
+  height: 1.13rem;
+  margin-right: 4px;
+}
+.header .span {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 0.91rem;
+>>>>>>> 122d8edc733b352324a802db9463bb37c5cdfb6e
 }
 
 #root {

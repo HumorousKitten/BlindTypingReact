@@ -11,6 +11,7 @@ const Header = (props) => {
     };
 
     return (
+<<<<<<< HEAD
       <header className={cl.Header}>
         <div className={cl.Container}>
           <div className={cl.TitleBlock}>
@@ -22,6 +23,18 @@ const Header = (props) => {
             <img src={infoObject.avatarIcon} alt='avatar' />
             <span className={cl.Span}>{infoObject.name}</span>
             <img src={infoObject.documentIcon} alt='documentIcon' />
+=======
+      <header className={cl.header}>
+        <div className={cl.TitleBlock}>
+          <img src={infoObject.iconBlindTyping} alt='iconOfSite' />
+          <span className={cl.span}>Blind Typing</span>
+        </div>
+        <div className={cl.AvatarBlock}>
+          <div>
+              <img src={infoObject.avatarIcon} alt='avatar' />
+              <span className={cl.span}>{infoObject.name}</span>
+              <img src={infoObject.documentIcon} alt='documentIcon' />
+>>>>>>> 122d8edc733b352324a802db9463bb37c5cdfb6e
           </div>
         </div>
       </header>
